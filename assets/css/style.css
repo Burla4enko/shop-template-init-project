@@ -168,8 +168,8 @@
           box-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
 }
 
-.page-header_cart-counter {
-  display: block;
+.page-header__cart-counter {
+  display: none;
 }
 
 .page-header__carousel {
@@ -320,7 +320,7 @@ body {
 
 .item-actions button i {
   font-size: 1rem;
-  padding: 5px;
+  margin-left: 5px;
 }
 
 .item-actions button:hover {
@@ -331,7 +331,7 @@ body {
 
 @media (min-width: 1200px) {
   .item-actions button {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
   }
 }
 

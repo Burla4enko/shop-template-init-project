@@ -14,7 +14,7 @@
     }
 
     &:not(:first-child){
-
+      
      &::before {
       content: ">";
       color: $color-light;
@@ -131,7 +131,7 @@
 
       i {
         font-size: 1rem;
-        padding: 5px;
+        margin-left: 5px;
       }
 
       &:hover {
@@ -141,7 +141,7 @@
       }
 
       @media (min-width: 1200px) {
-        font-size: 1.25rem;
+        font-size: 1.15rem;
       }
 
       @media (max-width: 1199px) {
